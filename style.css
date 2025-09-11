@@ -1,0 +1,97 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+      background:url(./picture.jpg);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .signup-container {
+      width: 100%;
+      max-width: 420px;
+      background: #fff;
+      padding: 32px;
+      border-radius: 12px;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+    }
+
+    .signup-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #64cc93;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      font-size: 14px;
+      margin-bottom: 6px;
+      display: block;
+      color: #374151;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 15px;
+    }
+
+    input:focus {
+      border-color: #46e5a8;
+      outline: none;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 12px;
+      background: #46e596;
+      color: #e4ebe9;
+      font-weight: bold;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #4338ca;
+    }
+
+    .footer-text {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+      color: #6b7280;
+    }
+
+    .footer-text a {
+      color: #6af5cb;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .footer-text a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive */
+    @media (max-width: 480px) {
+      .signup-container {
+        padding: 24px;
+      }
+    }
+  
